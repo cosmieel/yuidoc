@@ -17,7 +17,7 @@
                 <h1><img src="../assets/css/logo.png" title="yuidoc-root" width="117" height="52"></h1>
         </div>
         <div class="yui3-u-1-4 version">
-            <em>API Docs for: 0.7.0</em>
+            <em>API Docs for: 0.9.0</em>
         </div>
     </div>
     <div id="bd" class="yui3-g">
@@ -50,6 +50,7 @@
                                 <li><a href="../classes/Utils.html">Utils</a></li>
                                 <li><a href="../classes/YUIDoc.html">YUIDoc</a></li>
                             </ul>
+                
                 
                             <ul id="api-modules" class="apis modules">
                                 <li><a href="../modules/yuidoc.html">yuidoc</a></li>
@@ -91,7 +92,7 @@
 
 
         <div class="foundat">
-            Defined in: <a href="../files/lib_builder.js.html#l12"><code>lib&#x2F;builder.js:12</code></a>
+            Defined in: <a href="../files/lib_builder.js.html#l15"><code>lib&#x2F;builder.js:15</code></a>
         </div>
 
             Module: <a href="../modules/yuidoc.html">yuidoc</a>
@@ -186,12 +187,12 @@ based templates to generate static HTML content</p>
                                 <a href="#method_nameSort">nameSort</a>
 
                             </li>
-                            <li class="index-item method private">
-                                <a href="#method_NATIVES_LINKER">NATIVES_LINKER</a>
+                            <li class="index-item method">
+                                <a href="#method_populateClasses">populateClasses</a>
 
                             </li>
                             <li class="index-item method">
-                                <a href="#method_populateClasses">populateClasses</a>
+                                <a href="#method_populateElements">populateElements</a>
 
                             </li>
                             <li class="index-item method">
@@ -215,6 +216,10 @@ based templates to generate static HTML content</p>
 
                             </li>
                             <li class="index-item method">
+                                <a href="#method_renderElement">renderElement</a>
+
+                            </li>
+                            <li class="index-item method">
                                 <a href="#method_renderFile">renderFile</a>
 
                             </li>
@@ -231,7 +236,7 @@ based templates to generate static HTML content</p>
 
                             </li>
                             <li class="index-item method">
-                                <a href="#method_writeClasses">writeClasses</a>
+                                <a href="#method_writeComponents">writeComponents</a>
 
                             </li>
                             <li class="index-item method">
@@ -265,10 +270,6 @@ based templates to generate static HTML content</p>
                                 <a href="#property_files">files</a>
 
                             </li>
-                            <li class="index-item property">
-                                <a href="#property_NATIVES">NATIVES</a>
-
-                            </li>
                     </ul>
                 </div>
 
@@ -299,7 +300,7 @@ based templates to generate static HTML content</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l123"><code>lib&#x2F;builder.js:123</code></a>
+        <a href="../files/lib_builder.js.html#l126"><code>lib&#x2F;builder.js:126</code></a>
         </p>
 
 
@@ -317,7 +318,7 @@ based templates to generate static HTML content</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">helpers</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -357,7 +358,7 @@ based templates to generate static HTML content</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l773"><code>lib&#x2F;builder.js:773</code></a>
+        <a href="../files/lib_builder.js.html#l767"><code>lib&#x2F;builder.js:767</code></a>
         </p>
 
 
@@ -416,7 +417,7 @@ that are not parsed by the <strong>Markdown</strong> parser.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l325"><code>lib&#x2F;builder.js:325</code></a>
+        <a href="../files/lib_builder.js.html#l297"><code>lib&#x2F;builder.js:297</code></a>
         </p>
 
 
@@ -458,7 +459,7 @@ it with flags.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l760"><code>lib&#x2F;builder.js:760</code></a>
+        <a href="../files/lib_builder.js.html#l754"><code>lib&#x2F;builder.js:754</code></a>
         </p>
 
 
@@ -528,7 +529,7 @@ it with flags.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l165"><code>lib&#x2F;builder.js:165</code></a>
+        <a href="../files/lib_builder.js.html#l169"><code>lib&#x2F;builder.js:169</code></a>
         </p>
 
 
@@ -546,7 +547,7 @@ it with flags.</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">item</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
 
                     <div class="param-description">
@@ -557,7 +558,7 @@ it with flags.</p>
                 </li>
                 <li class="param">
                         <code class="param-name optional">[raw=false]</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a></span>
                         <span class="flag optional" title="This parameter is optional.">optional</span>
 
 
@@ -569,7 +570,7 @@ it with flags.</p>
                 </li>
                 <li class="param">
                         <code class="param-name optional">[content]</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
                         <span class="flag optional" title="This parameter is optional.">optional</span>
 
 
@@ -597,7 +598,7 @@ it with flags.</p>
         </div>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
         </span>
 
 
@@ -609,7 +610,7 @@ it with flags.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l631"><code>lib&#x2F;builder.js:631</code></a>
+        <a href="../files/lib_builder.js.html#l625"><code>lib&#x2F;builder.js:625</code></a>
         </p>
 
 
@@ -627,7 +628,7 @@ it with flags.</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">a</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -643,7 +644,7 @@ it with flags.</p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>:
                     <p>The parsed HREF</p>
 
             </div>
@@ -663,7 +664,7 @@ it with flags.</p>
         </div>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
         </span>
 
 
@@ -675,7 +676,7 @@ it with flags.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l647"><code>lib&#x2F;builder.js:647</code></a>
+        <a href="../files/lib_builder.js.html#l641"><code>lib&#x2F;builder.js:641</code></a>
         </p>
 
 
@@ -694,7 +695,7 @@ with the <code>Markdown Parser</code></p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">o</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -710,7 +711,7 @@ with the <code>Markdown Parser</code></p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
                     <p>The augmented object</p>
 
             </div>
@@ -739,7 +740,7 @@ with the <code>Markdown Parser</code></p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1618"><code>lib&#x2F;builder.js:1618</code></a>
+        <a href="../files/lib_builder.js.html#l1737"><code>lib&#x2F;builder.js:1737</code></a>
         </p>
 
 
@@ -784,7 +785,7 @@ with the <code>Markdown Parser</code></p>
         </div>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
         </span>
 
 
@@ -796,7 +797,7 @@ with the <code>Markdown Parser</code></p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1605"><code>lib&#x2F;builder.js:1605</code></a>
+        <a href="../files/lib_builder.js.html#l1724"><code>lib&#x2F;builder.js:1724</code></a>
         </p>
 
 
@@ -816,7 +817,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">f</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
 
                     <div class="param-description">
@@ -832,7 +833,7 @@ returns 'lib_file.js';</p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>:
                     <p>The filtered file path</p>
 
             </div>
@@ -846,7 +847,7 @@ returns 'lib_file.js';</p>
         <span class="paren">()</span>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
         </span>
 
 
@@ -858,7 +859,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l461"><code>lib&#x2F;builder.js:461</code></a>
+        <a href="../files/lib_builder.js.html#l433"><code>lib&#x2F;builder.js:433</code></a>
         </p>
 
 
@@ -875,7 +876,7 @@ returns 'lib_file.js';</p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
                     <p>The project metadata</p>
 
             </div>
@@ -910,7 +911,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1026"><code>lib&#x2F;builder.js:1026</code></a>
+        <a href="../files/lib_builder.js.html#l1055"><code>lib&#x2F;builder.js:1055</code></a>
         </p>
 
 
@@ -928,7 +929,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">a</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external external" target="_blank">Array</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" class="crosslink external external" target="_blank">Array</a></span>
 
 
                     <div class="param-description">
@@ -939,7 +940,7 @@ returns 'lib_file.js';</p>
                 </li>
                 <li class="param">
                         <code class="param-name">b</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -983,7 +984,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l707"><code>lib&#x2F;builder.js:707</code></a>
+        <a href="../files/lib_builder.js.html#l701"><code>lib&#x2F;builder.js:701</code></a>
         </p>
 
 
@@ -1041,7 +1042,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l140"><code>lib&#x2F;builder.js:140</code></a>
+        <a href="../files/lib_builder.js.html#l144"><code>lib&#x2F;builder.js:144</code></a>
         </p>
 
 
@@ -1059,7 +1060,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">data</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
 
                     <div class="param-description">
@@ -1110,7 +1111,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1050"><code>lib&#x2F;builder.js:1050</code></a>
+        <a href="../files/lib_builder.js.html#l1079"><code>lib&#x2F;builder.js:1079</code></a>
         </p>
 
 
@@ -1128,7 +1129,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">info</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -1139,7 +1140,7 @@ returns 'lib_file.js';</p>
                 </li>
                 <li class="param">
                         <code class="param-name">classItems</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array" class="crosslink external external" target="_blank">Array</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" class="crosslink external external" target="_blank">Array</a></span>
 
 
                     <div class="param-description">
@@ -1150,7 +1151,7 @@ returns 'lib_file.js';</p>
                 </li>
                 <li class="param">
                         <code class="param-name">first</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean" class="crosslink external" target="_blank">Boolean</a></span>
 
 
                     <div class="param-description">
@@ -1187,7 +1188,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l373"><code>lib&#x2F;builder.js:373</code></a>
+        <a href="../files/lib_builder.js.html#l345"><code>lib&#x2F;builder.js:345</code></a>
         </p>
 
 
@@ -1247,7 +1248,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1432"><code>lib&#x2F;builder.js:1432</code></a>
+        <a href="../files/lib_builder.js.html#l1545"><code>lib&#x2F;builder.js:1545</code></a>
         </p>
 
 
@@ -1265,7 +1266,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">a</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -1276,7 +1277,7 @@ returns 'lib_file.js';</p>
                 </li>
                 <li class="param">
                         <code class="param-name">b</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -1300,73 +1301,6 @@ returns 'lib_file.js';</p>
 
 
 </div>
-<div id="method_NATIVES_LINKER" class="method item private">
-    <h3 class="name"><code>NATIVES_LINKER</code></h3>
-
-        <div class="args">
-            <span class="paren">(</span><ul class="args-list inline commas">
-                <li class="arg">
-                        <code>name</code>
-                </li>
-            </ul><span class="paren">)</span>
-        </div>
-
-        <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
-        </span>
-
-
-        <span class="flag private">private</span>
-
-
-
-
-
-    <div class="meta">
-                <p>
-                Defined in
-        <a href="../files/lib_builder.js.html#l311"><code>lib&#x2F;builder.js:311</code></a>
-        </p>
-
-
-
-    </div>
-
-    <div class="description">
-        <p>Function to link an external type uses <code>NATIVES</code> object</p>
-
-    </div>
-
-        <div class="params">
-            <h4>Parameters:</h4>
-
-            <ul class="params-list">
-                <li class="param">
-                        <code class="param-name">name</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
-
-
-                    <div class="param-description">
-                        <p>The name of the type to link</p>
-
-                    </div>
-
-                </li>
-            </ul>
-        </div>
-
-        <div class="returns">
-            <h4>Returns:</h4>
-
-            <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>:
-                    <p>The combined URL</p>
-
-            </div>
-        </div>
-
-
-</div>
 <div id="method_populateClasses" class="method item">
     <h3 class="name"><code>populateClasses</code></h3>
 
@@ -1379,7 +1313,7 @@ returns 'lib_file.js';</p>
         </div>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
         </span>
 
 
@@ -1391,7 +1325,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l504"><code>lib&#x2F;builder.js:504</code></a>
+        <a href="../files/lib_builder.js.html#l476"><code>lib&#x2F;builder.js:476</code></a>
         </p>
 
 
@@ -1409,7 +1343,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">opts</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -1425,7 +1359,73 @@ returns 'lib_file.js';</p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
+                    <p>The modified options</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_populateElements" class="method item">
+    <h3 class="name"><code>populateElements</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>opts</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/lib_builder.js.html#l500"><code>lib&#x2F;builder.js:500</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Populate the meta data for elements</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">opts</code>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+
+
+                    <div class="param-description">
+                        <p>The original options</p>
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
                     <p>The modified options</p>
 
             </div>
@@ -1445,7 +1445,7 @@ returns 'lib_file.js';</p>
         </div>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
         </span>
 
 
@@ -1457,7 +1457,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l574"><code>lib&#x2F;builder.js:574</code></a>
+        <a href="../files/lib_builder.js.html#l568"><code>lib&#x2F;builder.js:568</code></a>
         </p>
 
 
@@ -1475,7 +1475,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">opts</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -1491,7 +1491,7 @@ returns 'lib_file.js';</p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
                     <p>The modified options</p>
 
             </div>
@@ -1511,7 +1511,7 @@ returns 'lib_file.js';</p>
         </div>
 
         <span class="returns-inline">
-            <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+            <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
         </span>
 
 
@@ -1523,7 +1523,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l528"><code>lib&#x2F;builder.js:528</code></a>
+        <a href="../files/lib_builder.js.html#l522"><code>lib&#x2F;builder.js:522</code></a>
         </p>
 
 
@@ -1541,7 +1541,7 @@ returns 'lib_file.js';</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">opts</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
 
                     <div class="param-description">
@@ -1557,7 +1557,7 @@ returns 'lib_file.js';</p>
             <h4>Returns:</h4>
 
             <div class="returns-description">
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>:
                     <p>The modified options</p>
 
             </div>
@@ -1598,7 +1598,7 @@ returns 'lib_file.js';</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l792"><code>lib&#x2F;builder.js:792</code></a>
+        <a href="../files/lib_builder.js.html#l786"><code>lib&#x2F;builder.js:786</code></a>
         </p>
 
 
@@ -1651,7 +1651,7 @@ Renders the handlebars templates with the default View class.</p>
                 </li>
                 <li class="param">
                         <code class="param-name optional">[partials={}]</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
                         <span class="flag optional" title="This parameter is optional.">optional</span>
 
 
@@ -1673,7 +1673,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">err</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" class="crosslink external" target="_blank">Error</a></span>
 
                                 <div class="param-description">
                                     
@@ -1720,7 +1720,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1572"><code>lib&#x2F;builder.js:1572</code></a>
+        <a href="../files/lib_builder.js.html#l1690"><code>lib&#x2F;builder.js:1690</code></a>
         </p>
 
 
@@ -1749,7 +1749,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">apijs</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The JavaScript code to write API meta data</p>
@@ -1786,7 +1786,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1102"><code>lib&#x2F;builder.js:1102</code></a>
+        <a href="../files/lib_builder.js.html#l1131"><code>lib&#x2F;builder.js:1131</code></a>
         </p>
 
 
@@ -1804,7 +1804,7 @@ Renders the handlebars templates with the default View class.</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">cb</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
 
 
                     <div class="param-description">
@@ -1815,7 +1815,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to render this view</p>
@@ -1825,7 +1825,83 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+
+                                <div class="param-description">
+                                    <p>The View Data</p>
+
+                                </div>
+
+                            </li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+
+
+
+</div>
+<div id="method_renderElement" class="method item">
+    <h3 class="name"><code>renderElement</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>cb</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/lib_builder.js.html#l1424"><code>lib&#x2F;builder.js:1424</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Render the element file</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">cb</code>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
+
+
+                    <div class="param-description">
+                        <p>The callback fired when complete</p>
+
+                    </div>
+
+                        <ul class="params-list">
+                            <li class="param">
+                                    <code class="param-name">html</code>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+
+                                <div class="param-description">
+                                    <p>The HTML to render this view</p>
+
+                                </div>
+
+                            </li>
+                            <li class="param">
+                                    <code class="param-name">view</code>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -1862,7 +1938,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1505"><code>lib&#x2F;builder.js:1505</code></a>
+        <a href="../files/lib_builder.js.html#l1618"><code>lib&#x2F;builder.js:1618</code></a>
         </p>
 
 
@@ -1880,7 +1956,7 @@ Renders the handlebars templates with the default View class.</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">cb</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
 
 
                     <div class="param-description">
@@ -1891,7 +1967,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to render this view</p>
@@ -1901,7 +1977,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -1938,7 +2014,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l848"><code>lib&#x2F;builder.js:848</code></a>
+        <a href="../files/lib_builder.js.html#l842"><code>lib&#x2F;builder.js:842</code></a>
         </p>
 
 
@@ -1956,7 +2032,7 @@ Renders the handlebars templates with the default View class.</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">cb</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
 
 
                     <div class="param-description">
@@ -1967,7 +2043,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to render this view</p>
@@ -1977,7 +2053,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -2014,7 +2090,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l899"><code>lib&#x2F;builder.js:899</code></a>
+        <a href="../files/lib_builder.js.html#l904"><code>lib&#x2F;builder.js:904</code></a>
         </p>
 
 
@@ -2032,7 +2108,7 @@ Renders the handlebars templates with the default View class.</p>
             <ul class="params-list">
                 <li class="param">
                         <code class="param-name">cb</code>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a></span>
 
 
                     <div class="param-description">
@@ -2043,7 +2119,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to render this view</p>
@@ -2053,7 +2129,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -2091,7 +2167,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1559"><code>lib&#x2F;builder.js:1559</code></a>
+        <a href="../files/lib_builder.js.html#l1677"><code>lib&#x2F;builder.js:1677</code></a>
         </p>
 
 
@@ -2124,11 +2200,14 @@ Renders the handlebars templates with the default View class.</p>
 
 
 </div>
-<div id="method_writeClasses" class="method item">
-    <h3 class="name"><code>writeClasses</code></h3>
+<div id="method_writeComponents" class="method item">
+    <h3 class="name"><code>writeComponents</code></h3>
 
         <div class="args">
             <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>type</code>
+                </li>
                 <li class="arg">
                         <code>cb</code>
                 </li>
@@ -2145,7 +2224,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1389"><code>lib&#x2F;builder.js:1389</code></a>
+        <a href="../files/lib_builder.js.html#l1501"><code>lib&#x2F;builder.js:1501</code></a>
         </p>
 
 
@@ -2153,7 +2232,7 @@ Renders the handlebars templates with the default View class.</p>
     </div>
 
     <div class="description">
-        <p>Generates the class files under &quot;out&quot;/classes/</p>
+        <p>Generates the class or element files under &quot;out&quot;/classes/ or &quot;out&quot;/elements/</p>
 
     </div>
 
@@ -2161,6 +2240,17 @@ Renders the handlebars templates with the default View class.</p>
             <h4>Parameters:</h4>
 
             <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">type</code>
+                        <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+
+
+                    <div class="param-description">
+                        <p>The component type, &quot;classes&quot; or &quot;elements&quot;</p>
+
+                    </div>
+
+                </li>
                 <li class="param">
                         <code class="param-name">cb</code>
                         <span class="type">Callback</span>
@@ -2174,7 +2264,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to write class view</p>
@@ -2184,7 +2274,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -2221,7 +2311,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l1455"><code>lib&#x2F;builder.js:1455</code></a>
+        <a href="../files/lib_builder.js.html#l1568"><code>lib&#x2F;builder.js:1568</code></a>
         </p>
 
 
@@ -2250,7 +2340,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to write file view</p>
@@ -2260,7 +2350,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -2297,7 +2387,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l873"><code>lib&#x2F;builder.js:873</code></a>
+        <a href="../files/lib_builder.js.html#l878"><code>lib&#x2F;builder.js:878</code></a>
         </p>
 
 
@@ -2326,7 +2416,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to write index view</p>
@@ -2336,7 +2426,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -2373,7 +2463,7 @@ Renders the handlebars templates with the default View class.</p>
     <div class="meta">
                 <p>
                 Defined in
-        <a href="../files/lib_builder.js.html#l983"><code>lib&#x2F;builder.js:983</code></a>
+        <a href="../files/lib_builder.js.html#l1012"><code>lib&#x2F;builder.js:1012</code></a>
         </p>
 
 
@@ -2402,7 +2492,7 @@ Renders the handlebars templates with the default View class.</p>
                         <ul class="params-list">
                             <li class="param">
                                     <code class="param-name">html</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a></span>
 
                                 <div class="param-description">
                                     <p>The HTML to write module view</p>
@@ -2412,7 +2502,7 @@ Renders the handlebars templates with the default View class.</p>
                             </li>
                             <li class="param">
                                     <code class="param-name">view</code>
-                                    <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+                                    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
 
                                 <div class="param-description">
                                     <p>The View Data</p>
@@ -2433,108 +2523,83 @@ Renders the handlebars templates with the default View class.</p>
             <div id="properties" class="api-class-tabpanel">
                 <h2 class="off-left">Properties</h2>
 
-                    <div id="property__mergeCounter" class="property item private">
-                        <h3 class="name"><code>_mergeCounter</code></h3>
-                        <span class="type"><a href="http://yuilibrary.com/yui/docs/api/classes/Number.html" class="crosslink external" target="_blank">Number</a></span>
-                    
-                    
-                            <span class="flag private">private</span>
-                    
-                    
-                    
-                        <div class="meta">
-                                    <p>
-                                    Defined in
-                            <a href="../files/lib_builder.js.html#l1043"><code>lib&#x2F;builder.js:1043</code></a>
-                            </p>
-                    
-                    
-                        </div>
-                    
-                        <div class="description">
-                            <p>Counter for stepping into merges</p>
-                    
-                        </div>
-                    
-                    
-                    
-                    </div>
-                    <div id="property__meta" class="property item private">
-                        <h3 class="name"><code>_meta</code></h3>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
-                    
-                    
-                            <span class="flag private">private</span>
-                    
-                    
-                    
-                        <div class="meta">
-                                    <p>
-                                    Defined in
-                            <a href="../files/lib_builder.js.html#l454"><code>lib&#x2F;builder.js:454</code></a>
-                            </p>
-                    
-                    
-                        </div>
-                    
-                        <div class="description">
-                            <p>Holder for project meta data</p>
-                    
-                        </div>
-                    
-                    
-                    
-                    </div>
-                    <div id="property_files" class="property item">
-                        <h3 class="name"><code>files</code></h3>
-                        <span class="type"><a href="http://yuilibrary.com/yui/docs/api/classes/Number.html" class="crosslink external" target="_blank">Number</a></span>
-                    
-                    
-                    
-                    
-                    
-                        <div class="meta">
-                                    <p>
-                                    Defined in
-                            <a href="../files/lib_builder.js.html#l448"><code>lib&#x2F;builder.js:448</code></a>
-                            </p>
-                    
-                    
-                        </div>
-                    
-                        <div class="description">
-                            <p>File counter</p>
-                    
-                        </div>
-                    
-                    
-                    
-                    </div>
-                    <div id="property_NATIVES" class="property item">
-                        <h3 class="name"><code>NATIVES</code></h3>
-                        <span class="type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
-                    
-                    
-                    
-                    
-                    
-                        <div class="meta">
-                                    <p>
-                                    Defined in
-                            <a href="../files/lib_builder.js.html#l272"><code>lib&#x2F;builder.js:272</code></a>
-                            </p>
-                    
-                    
-                        </div>
-                    
-                        <div class="description">
-                            <p>List of native types to cross link to MDN</p>
-                    
-                        </div>
-                    
-                    
-                    
-                    </div>
+<div id="property__mergeCounter" class="property item private">
+    <h3 class="name"><code>_mergeCounter</code></h3>
+    <span class="type"><a href="http://yuilibrary.com/yui/docs/api/classes/Number.html" class="crosslink external" target="_blank">Number</a></span>
+
+
+        <span class="flag private">private</span>
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/lib_builder.js.html#l1072"><code>lib&#x2F;builder.js:1072</code></a>
+        </p>
+
+
+    </div>
+
+    <div class="description">
+        <p>Counter for stepping into merges</p>
+
+    </div>
+
+
+
+</div>
+<div id="property__meta" class="property item private">
+    <h3 class="name"><code>_meta</code></h3>
+    <span class="type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" class="crosslink external external" target="_blank">Object</a></span>
+
+
+        <span class="flag private">private</span>
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/lib_builder.js.html#l426"><code>lib&#x2F;builder.js:426</code></a>
+        </p>
+
+
+    </div>
+
+    <div class="description">
+        <p>Holder for project meta data</p>
+
+    </div>
+
+
+
+</div>
+<div id="property_files" class="property item">
+    <h3 class="name"><code>files</code></h3>
+    <span class="type"><a href="http://yuilibrary.com/yui/docs/api/classes/Number.html" class="crosslink external" target="_blank">Number</a></span>
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/lib_builder.js.html#l420"><code>lib&#x2F;builder.js:420</code></a>
+        </p>
+
+
+    </div>
+
+    <div class="description">
+        <p>File counter</p>
+
+    </div>
+
+
+
+</div>
             </div>
 
 

@@ -17,7 +17,7 @@
                 <h1><img src="../assets/css/logo.png" title="yuidoc-root" width="117" height="52"></h1>
         </div>
         <div class="yui3-u-1-4 version">
-            <em>API Docs for: 0.7.0</em>
+            <em>API Docs for: 0.9.0</em>
         </div>
     </div>
     <div id="bd" class="yui3-g">
@@ -50,6 +50,7 @@
                                 <li><a href="../classes/Utils.html">Utils</a></li>
                                 <li><a href="../classes/YUIDoc.html">YUIDoc</a></li>
                             </ul>
+                
                 
                             <ul id="api-modules" class="apis modules">
                                 <li><a href="../modules/yuidoc.html">yuidoc</a></li>
@@ -95,11 +96,12 @@
  * Code licensed under the BSD License:
  * https://github.com/yui/yuidoc/blob/master/LICENSE
  */
-/*global YUI:true, Y:true */
+&#x27;use strict&#x27;;
+
 /**
 Module creates the YUI instance with the required modules, uses them and exports the **Y** to be used
-by the _CLI class_ or by extenders: &#x60;require(&#x27;yuidocjs&#x27;);&#x60;  
-You can use it like this:  
+by the _CLI class_ or by extenders: &#x60;require(&#x27;yuidocjs&#x27;);&#x60;
+You can use it like this:
 
     var options = {
         paths: [ &#x27;./lib&#x27; ],
@@ -123,10 +125,10 @@ args.forEach(function (item) {
     }
 });
 
-var YUI = require(&#x27;yui&#x27; + (debug ? &#x27;/debug&#x27; : &#x27;&#x27;)).YUI,
-    path = require(&#x27;path&#x27;),
-    fs = require(&#x27;graceful-fs&#x27;),
-    metaPath = path.join(__dirname, &#x27;../&#x27;, &#x27;package.json&#x27;);
+var YUI = require(&#x27;yui&#x27; + (debug ? &#x27;/debug&#x27; : &#x27;&#x27;)).YUI;
+var path = require(&#x27;path&#x27;);
+var fs = require(&#x27;graceful-fs&#x27;);
+var metaPath = path.join(__dirname, &#x27;../&#x27;, &#x27;package.json&#x27;);
 
 function log (message, level) {
     if (!message || !level || typeof console[level] !== &#x27;function&#x27;) {
